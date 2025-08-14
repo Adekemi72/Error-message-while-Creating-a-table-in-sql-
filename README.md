@@ -8,9 +8,6 @@
 ### ‎1) Msg 102 … Incorrect syntax near 'ab1'
 ‎
 ‎Cause: This error occurs if you miss proper punctuation (commas, quotes, semicolon) or, as in my case, forget the keyword VALUES before inserting rows.
-
-
-‎
 ‎---
 ### ‎2) The number of columns for each row in a table value constructor must be the same
 ‎
@@ -33,6 +30,7 @@
 ‎ALTER TABLE salestable ALTER COLUMN sale_id   VARCHAR(10);
 ‎ALTER TABLE salestable ALTER COLUMN product   VARCHAR(50);
 ‎ALTER TABLE salestable ALTER COLUMN
+
 ‎---
 ‎### 4) ) Date confusion ('5-05-2023' parsed wrong)
 ‎
@@ -42,6 +40,7 @@
 ‎
 ‎Remedy:
 ‎ I used appropriate format and a proper DATE type. I also make use of 'Case When' to update the 'order_sales' column
+
 ‎---
 ‎### Key Lessons I Learned
 ‎✅ Put VALUES, commas, quotes, and semicolons where necessary
@@ -54,6 +53,7 @@
 ‎
 ‎✅ Most of all these, is to check your work thoroughly before running any query
 ‎
+
 ‎Next time, I’ll create more than two tables, set up a primary key and a foreign key (secondary key), and test relationships between them.
 ‎
 ‎
