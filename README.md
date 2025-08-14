@@ -15,6 +15,7 @@
 ‎Remedy: SQL underlined the affected row; I checked and added the missing value.
 ‎---
 ### ‎3) 'msg 102, level 15, state 1, line 14'
+
 ‎'incorrect syntax near 'sale_id'
 ‎'incorrect syntax near 'region'
 ‎
