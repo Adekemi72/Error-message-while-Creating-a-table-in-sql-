@@ -8,7 +8,7 @@
 ‎
 ### 1. Msg 102 … Incorrect syntax near 'ab1'
 
-![incorrect syntax near 'abi1'](erro 1.jpg)
+![incorrect syntax near 'abi1'](erro1.jpg)
 ‎
 ‎Cause: This error occurs if you miss proper punctuation (commas, quotes, semicolon) or, as in my case, forget the keyword VALUES before inserting rows.
 ‎---
