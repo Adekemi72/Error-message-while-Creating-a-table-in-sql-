@@ -60,4 +60,5 @@ ALTER TABLE salestable ALTER COLUMN product   VARCHAR(50);
 - ‎Next time, I’ll create more than two tables, set up a primary key and a foreign key (secondary key), and test relationships between them.
 ‎
 ## The questions with the answers 
+https://github.com/Adekemi72/Error-message-while-Creating-a-table-in-sql-/blob/main/MY%20PERSONAL%20TUTORIAL%20SQLQuery1.sql
 
