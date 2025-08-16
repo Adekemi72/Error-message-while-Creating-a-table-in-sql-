@@ -2,10 +2,13 @@
 ## Building a Simple SQL Table – Errors, Causes, and Fixes
 ---
 ‎So,  I decided to build a small table in SQL  the table contains 7 columns. these are; sale_id, product, region, order_date, quantity, unit_price and revenue.
+---
 ‎
 ## ‎Here are the errors I faced, their causes, and how I fixed them:
 ‎
-### ‎1) Msg 102 … Incorrect syntax near 'ab1'
+### 1. Msg 102 … Incorrect syntax near 'ab1'
+
+![incorrect syntax near 'abi1'](erro 1.jpg)
 ‎
 ‎Cause: This error occurs if you miss proper punctuation (commas, quotes, semicolon) or, as in my case, forget the keyword VALUES before inserting rows.
 ‎---
